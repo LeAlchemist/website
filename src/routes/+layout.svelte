@@ -38,7 +38,6 @@
 
 		footer {
 			margin: auto;
-			min-height: 50vh;
 			text-align: center;
 			justify-content: left;
 			width: 50vw;
@@ -80,18 +79,27 @@
 <nav>
 	<ul>
 		<li>
-			<a href="/" aria-current={$page.url.pathname === "/"}> home </a>
+			<a href="/" aria-current={$page.url.pathname === "/"}> Home </a>
+		</li>
+
+		<li>
+			<a
+				href="/portfolio"
+				aria-current={$page.url.pathname === "/portfolio"}
+			>
+				Portfolio
+			</a>
 		</li>
 
 		<li>
 			<a href="/blog" aria-current={$page.url.pathname === "/blog"}>
-				blog
+				Blog
 			</a>
 		</li>
 
 		<li>
 			<a href="/about" aria-current={$page.url.pathname === "/about"}>
-				about
+				About
 			</a>
 		</li>
 	</ul>
