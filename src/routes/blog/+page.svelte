@@ -5,8 +5,7 @@
 <head>
 	<style>
 		img {
-			width: 50%;
-			height: 50%;
+			width: 25vw;
 		}
 
 		.content {
@@ -18,12 +17,12 @@
 	</style>
 </head>
 
-<h1>blog</h1>
+<h1>BLOG</h1>
 
 {#each data.summaries as { slug, title, date, content }}
 	<div class="title: {title}">
 		<h2><a href="/blog/{slug}">{title}</a></h2>
 	</div>
-	<div class="date: {date}"><p>{@html date}</p></div>
-	<div class="content"><p>{@html content}</p></div>
+	<div class="date: {date}">{@html date}</div>
+	<div class="content">{@html content}</div>
 {/each}

@@ -13,8 +13,7 @@
 			}
 
 			.content img {
-				width: 25%;
-				height: 25%;
+				width: 10vw;
 			}
 
 			.layout {

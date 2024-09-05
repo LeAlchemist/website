@@ -5,8 +5,7 @@
 <head>
 	<style>
 		img {
-			width: 75%;
-			height: 75%;
+			width: 50vw;
 		}
 	</style>
 </head>
