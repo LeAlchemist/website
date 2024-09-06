@@ -22,6 +22,19 @@
 				grid-template-columns: 1fr 16em;
 			}
 		}
+
+		@media (max-width: 960px) {
+			.content {
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+			}
+
+			.content img {
+				width: 10vw;
+			}
+		}
 	</style>
 </head>
 
