@@ -1,5 +1,7 @@
 <script>
 	import { page } from "$app/stores";
+	import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
+	setBasePath('/node_modules/@shoelace-style/shoelace/dist');
 </script>
 
 <head>
@@ -72,6 +74,9 @@
 		rel="stylesheet"
 		href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
 	/>
+
+	<link rel="stylesheet" href="/shoelace/dist/themes/light.css" />
+	<script type="module" src="/shoelace/dist/shoelace.js"></script>
 </head>
 
 <header><h1>Nicholas Ross</h1></header>
