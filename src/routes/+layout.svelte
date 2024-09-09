@@ -1,7 +1,5 @@
 <script>
 	import { page } from "$app/stores";
-	import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
-	setBasePath('/node_modules/@shoelace-style/shoelace/dist');
 </script>
 
 <head>
