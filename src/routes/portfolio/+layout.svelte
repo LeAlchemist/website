@@ -10,31 +10,19 @@
         }
 
         .row {
-        margin: auto;
+          display: flex;
+          flex-wrap: wrap;
         }
-
-        /* Add padding BETWEEN each column */
-        .row,
+            
         .row > .column {
-          padding: 5px;
+          width: 640;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
         }
-
-        /* Create three equal columns that floats next to each other */
-        .column {
-          float: left;
-          width: 30vw;
-        }
-
-        /* Clear floats after rows */ 
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-
+            
         .title {
           position: relative;
-          bottom: 0;
           background: rgb(0, 0, 0);
           background: rgba(0, 0, 0, 0.5); /* Black see-through */
           color: #f1f1f1;
