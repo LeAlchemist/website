@@ -4,7 +4,9 @@ export function load() {
     return {
         summaries: posts.map((post) => ({
             tag: post.tag,
-            image: post.image,
+            slug: post.slug,
+            image: post.image[0],
+            title: post.title,
             description: post.description
         }))
     };

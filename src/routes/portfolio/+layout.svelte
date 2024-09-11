@@ -6,23 +6,23 @@
         }
 
         img{
-            max-width: 25vw
+          max-width: 30vw
         }
 
         .row {
-        margin: 10px -16px;
+        margin: auto;
         }
 
         /* Add padding BETWEEN each column */
         .row,
         .row > .column {
-          padding: 8px;
+          padding: 5px;
         }
 
         /* Create three equal columns that floats next to each other */
         .column {
           float: left;
-          width: 33vw;
+          width: 30vw;
         }
 
         /* Clear floats after rows */ 
@@ -34,7 +34,4 @@
     </style>
 </head>
 
-<div class="body">
-  <h1>PORTFOLIO</h1>
-	<slot></slot>
-</div>
+<slot></slot>
