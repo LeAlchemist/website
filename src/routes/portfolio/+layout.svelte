@@ -6,7 +6,8 @@
         }
 
         img{
-          max-width: 30vw;
+          width: 600px;
+          height: 200px;
         }
 
         .row {
@@ -15,7 +16,8 @@
         }
             
         .row > .column {
-          width: 640;
+          width: auto;
+          height: 250;
           text-align: center;
           line-height: 75px;
           font-size: 30px;
