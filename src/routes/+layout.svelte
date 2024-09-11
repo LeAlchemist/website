@@ -59,7 +59,7 @@
 			opacity: 0.7;
 		}
 
-		.body_content {
+		.body {
 			margin: auto;
 			min-height: 50vh;
 			text-align: left;
@@ -105,7 +105,7 @@
 	</ul>
 </nav>
 
-<div class="body_content">
+<div class="body">
 	<slot></slot>
 </div>
 
