@@ -7,6 +7,7 @@ export function load() {
             slug: post.slug,
             image: post.image[0],
             title: post.title,
+            date: post.date,
             description: post.description
         }))
     };
