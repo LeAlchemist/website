@@ -33,7 +33,7 @@
         }
 
         .title {
-          position: absolute;
+          position: relative;
           bottom: 0;
           background: rgb(0, 0, 0);
           background: rgba(0, 0, 0, 0.5); /* Black see-through */
@@ -43,11 +43,10 @@
           opacity:0;
           color: white;
           font-size: 20px;
-          padding: 20px;
           text-align: center;
         }
 
-        .image:hover .title {
+        .content:hover .title {
           opacity: 1;
         }
 
