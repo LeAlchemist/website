@@ -72,9 +72,6 @@
 		rel="stylesheet"
 		href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
 	/>
-
-	<link rel="stylesheet" href="/shoelace/dist/themes/light.css" />
-	<script type="module" src="/shoelace/dist/shoelace.js"></script>
 </head>
 
 <header><h1>Nicholas Ross</h1></header>
