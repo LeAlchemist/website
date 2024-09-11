@@ -24,6 +24,11 @@
             padding: 5px;
             height: 100px;
         }
+
+        img {
+			width: 50vw;
+            height: auto;
+		}
     </style>
 </head>
 
