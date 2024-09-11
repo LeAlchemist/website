@@ -17,6 +17,13 @@
 		    gap: 2em;
 		    grid-template-columns: 1fr 16em;
 		}
+
+        aside {
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            height: 100px;
+        }
     </style>
 </head>
 
@@ -26,6 +33,8 @@
     </main>
 
     <aside>
-        {@html $page.data.post.description}
+        <h3>{$page.data.post.title}</h3>
+        <p>{$page.data.post.date}</p>
+        <p>{@html $page.data.post.description}</p>
     </aside>
 </div>
