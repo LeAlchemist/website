@@ -9,11 +9,9 @@
 		{#if tag.includes("3D")}
 			<div class= "column 3D">
 				<div class = "content">
-					<div class= "image">
-							<a href="/portfolio/{slug}">
-								<img src={image} alt={title}>
-							</a>
-					</div>
+						<a href="/portfolio/{slug}">
+							<img src={image} alt={title} class= "image">
+						</a>
 					<div class= "title"><h3>{title}</h3></div>
 				</div>
 			</div>
@@ -24,12 +22,10 @@
 		{#if tag.includes("2D")}
 			<div class = "column 2D">
 				<div class = "content">
-					<div class= "image">
 						<a href="/portfolio/{slug}">
-							<img src={image} alt={title}>
+							<img src={image} alt={title} class= "image">
 						</a>
-					</div>
-					<div class= "title"><h3>{title}</h3></div>	
+					<div class= "title"><h3>{title}</h3></div>
 				</div>
 			</div>
 		{/if}

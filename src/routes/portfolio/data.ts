@@ -11,6 +11,24 @@ export const posts = [
     },
     {
         tag: "3D",
+        slug: "multimaterialswitch",
+        image: ['https://cdna.artstation.com/p/assets/images/images/034/320/162/large/nicholas-ross-multimaterialswitch-icon-1024.jpg?1611979862',
+                'https://cdnb.artstation.com/p/assets/images/images/034/320/179/original/nicholas-ross-mms-sd-test.gif?1611979932',
+                'https://cdnb.artstation.com/p/assets/images/images/034/328/689/original/nicholas-ross-mms-sp-test.gif?1612013241'],
+        title: "Multi Material Switch",
+        date: "1/30/2021",
+        description: "The Multi Material Switch node is a powerful custom node that allows the user to switch between 20 full materials with the option to use any of the 12 texture map types (Diffuse, Base Color, Normal, Specular, Emissive, Glossiness, Roughness, Metallic, Specular Level, Ambient Occlusion, Height and Opacity) to fit almost all texture/render pipe lines the user may have. "
+    },
+    {
+        tag: "3D",
+        slug: "samirascoin",
+        image: ['https://cdna.artstation.com/p/assets/images/images/034/083/984/large/nicholas-ross-coin.jpg?1611340962'],
+        title: "League of Legends Fanart: Samira's Coin",
+        date: "1/22/21",
+        description: "A small fan art commission"
+    },
+    {
+        tag: "3D",
         slug: "meetmatzombie",
         image: ['https://cdnb.artstation.com/p/assets/images/images/032/737/173/large/nicholas-ross-8-28-2020-c9-hex.jpg?1607336759',
                 'https://cdnb.artstation.com/p/assets/images/images/032/737/163/large/nicholas-ross-8-28-2020-c1.jpg?1607336749',
