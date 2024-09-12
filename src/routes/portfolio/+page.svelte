@@ -2,7 +2,7 @@
 	export let data;
 	
 	let img_tag = "";
-	
+
 	function tag_all(){
 		img_tag = "";
 	}
@@ -24,12 +24,11 @@
 	{#each data.summaries as {tag, slug, image, title}}
 		{#if tag.includes(img_tag)}
 			<div class= "column 3D">
-				<div class = "content">
-						<a href="/portfolio/{slug}">
-							<img src={image} alt={title} class= "image">
-						</a>
+				<a href="/portfolio/{slug}">
+					<div class = "content">
+						<img src={image} alt={title} class= "image">
 					<div class= "title"><h3>{title}</h3></div>
-				</div>
+				</a>
 			</div>
 		{/if}
 	{/each}
