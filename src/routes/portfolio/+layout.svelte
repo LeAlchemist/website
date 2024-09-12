@@ -7,8 +7,8 @@
 
         img{
           display: block;
-          width: 500px;
-          height: 500px;
+          width: 250px;
+          height: 250px;
         }
 
         .row {
@@ -26,7 +26,7 @@
           
         .content{
           position: relative;
-          width: 500px;
+          
         }
 
         .title {
