@@ -16,10 +16,13 @@
 	}
 </script>
 
-<h1>PORTFOLIO</h1>
-<button on:click={tag_all}>all</button>
-<button on:click={tag_3d}>3D</button>
-<button on:click={tag_2d}>2D</button>
+<div class= filter>
+	<ul>
+	<li>Filters:</li>
+	<li><button on:click={tag_all}>all</button></li>
+	<li><button on:click={tag_3d}>3D</button></li>
+	<li><button on:click={tag_2d}>2D</button></li></ul>
+</div>
 <div class = "row">
 	{#each data.summaries as {tag, slug, image, title}}
 		{#if tag.includes(img_tag)}
