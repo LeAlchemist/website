@@ -3,25 +3,20 @@
 	
 	let img_tag = "";
 
-	function tag_all(){
-		img_tag = "";
-	}
-
-	function tag_3d(){
-		img_tag = "3D";
-	}
-
-	function tag_2d(){
-		img_tag = "2D";
+	/**
+     * @param {string} _tag
+     */
+	function imgtag(_tag){
+		img_tag = _tag;
 	}
 </script>
 
 <div class= filter>
 	<ul>
 	<li>Filters:</li>
-	<li><button on:click={tag_all}>all</button></li>
-	<li><button on:click={tag_3d}>3D</button></li>
-	<li><button on:click={tag_2d}>2D</button></li></ul>
+	<li><button on:click={() => imgtag("")}>all</button></li>
+	<li><button on:click={() => imgtag("3D")}>3D</button></li>
+	<li><button on:click={() => imgtag("2D")}>2D</button></li></ul>
 </div>
 <div class = "row">
 	{#each data.summaries as {tag, slug, image, title}}
