@@ -51,35 +51,38 @@
         }
 
         .filter {
-			background-color: #333;
-			font-size: 100%;
-		}
+          color: white;
+			    background-color: #333;
+			    font-size: 100%;
+		    }
 
-		.filter ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			margin: auto;
-			width: 50vw;
-		}
-
-		.filter li {
-			float: left;
-		}
-
-		.filter li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
-
-		.filter li a:hover {
-			background-color: #111;
-		}
-
+		    .filter ul {
+		    	list-style-type: none;
+		    	margin: 0;
+		    	padding: 0;
+		    	overflow: hidden;
+		    	margin: auto;
+		    	width: 50vw;
+		    }
+      
+		    .filter li {
+		    	float: left;
+		    }
+      
+		    .filter li button {
+          background-color: #333;
+          border: none;
+		    	color: white;
+		    	text-align: center;
+          font-size: 100%;
+		    	text-decoration: none;
+          min-width: 100px;
+          cursor: pointer;
+		    }
+      
+		    .filter li button:hover {
+		    	background-color: #111;
+		    }
     </style>
 </head>
 
