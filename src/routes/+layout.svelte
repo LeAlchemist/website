@@ -22,7 +22,7 @@
 <nav class= "bg-[#333]">
 	<ul class= "list-none m-auto p-0 overflow-hidden w-[50vw]">
 		<li class= "float-left">
-			<a class="block text-white text-center px-[16px] py-[14px] hover:bg-[#111]" href="/" aria-current={$page.url.pathname === "/"}>Home</a>
+			<a class="block text-white text-center px-[16px] py-[14px] hover:bg-[#111]" href="/" aria-current={$page.url.pathname === "/"}><h3>Home</h3></a>
 		</li>
 
 		<li class= "float-left">
