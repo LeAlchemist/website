@@ -1,89 +1,36 @@
-<head>
-    <style>
-        .body {
-        width: 100vw;
-        margin: auto;
-        }
+<script>
+	/**
+     * @param {string} img_tag
+     */
+	export let img_tag = "";
+	/**
+     * @param {string} _tag
+     */
+	function imgtag(_tag){
+		img_tag = _tag;
+		
+	}
+</script>
 
-        img{
-          display: block;
-          width: 250px;
-          height: 250px;
-        }
-
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-          padding: 5px;
-        }
-            
-        .row > .column {
-          width: auto;
-          height: 250;
-          text-align: center;
-          line-height: 75px;
-          font-size: 30px;
-          padding: 5px;
-        }
-          
-        .content{
-          position: relative;
-          
-        }
-
-        .title {
-          position: absolute; 
-          bottom: 0; 
-          background: rgb(0, 0, 0);
-          background: rgba(0, 0, 0, 0.5); /* Black see-through */
-          color: #f1f1f1; 
-          width: 250px;
-          height: 250px;
-          transition: .5s ease;
-          opacity:0;
-          color: white;
-          font-size: 20px;
-          text-align: center;
-        }
-
-        .content:hover .title {
-          opacity: 1;
-        }
-
-        .filter {
-          color: white;
-			    background-color: #333;
-			    font-size: 100%;
-		    }
-
-		    .filter ul {
-		    	list-style-type: none;
-		    	margin: 0;
-		    	padding: 0;
-		    	overflow: hidden;
-		    	margin: auto;
-		    	width: 50vw;
-		    }
-      
-		    .filter li {
-		    	float: left;
-		    }
-      
-		    .filter li button {
-          background-color: #333;
-          border: none;
-		    	color: white;
-		    	text-align: center;
-          font-size: 100%;
-		    	text-decoration: none;
-          min-width: 100px;
-          cursor: pointer;
-		    }
-      
-		    .filter li button:hover {
-		    	background-color: #111;
-		    }
-    </style>
-</head>
+<!--#region filter bar-->
+<div class=""> {img_tag}</div>
+<div class= "w-[100vw] m-auto bg-[#333]">
+	<div class= "text-white text-[20px] text-center">
+		<ul class = "list-none m-0 p-0 overflow-hidden w-[50vw]">
+			<li class= "float-left">Filters:</li>
+			<li class= "float-left">{img_tag}</li>
+			<li class= "float-left">
+				<button class="bg-[#333] border-none color-white text-center text-[100%] text-none min-w-[100px] cursor-pointer hover:bg-[#111]" on:click={() => imgtag("")}>View All</button>
+			</li>
+			<li class= "float-left">
+				<button class="bg-[#333] border-none color-white text-center text-[100%] text-none min-w-[100px] cursor-pointer hover:bg-[#111]" on:click={() => imgtag("3D")}>View 3D</button>
+			</li>
+			<li class= "float-left">
+				<button class="bg-[#333] border-none color-white text-center text-[100%] text-none min-w-[100px] cursor-pointer hover:bg-[#111]" on:click={() => imgtag("2D")}>View2D</button>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--#endregion-->
 
 <slot></slot>
