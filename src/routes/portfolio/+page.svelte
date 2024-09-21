@@ -1,6 +1,4 @@
 <script>
-	/**import img_tag from './+layout.svelte'
-
 	/**
      * @param {string} img_tag
      */
@@ -17,10 +15,10 @@
 </script>
 
 <!--#region filter bar-->
-<div class= "w-[100vw] m-auto bg-[#333]">
-	<div class= "text-white text-[20px] text-center">
+<nav class= "w-[100vw] m-auto bg-[#333]">
+	<div class= "text-white text-[20px] text-center list-none m-auto p-0 overflow-hidden w-[50vw]">
 		<ul class = "list-none m-0 p-0 overflow-hidden w-[50vw]">
-			<li class= "float-left">Filters:</li>
+			<li class= "float-left">Filters: </li>
 			<li class= "float-left">
 				<button class="bg-[#333] border-none color-white text-center text-[100%] text-none min-w-[100px] cursor-pointer hover:bg-[#111]" on:click={() => imgtag("")}>View All</button>
 			</li>
@@ -32,7 +30,7 @@
 			</li>
 		</ul>
 	</div>
-</div>
+</nav>
 <!--#endregion-->
 
 <!--#region Images-->
