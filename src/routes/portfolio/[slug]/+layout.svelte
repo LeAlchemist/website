@@ -2,44 +2,14 @@
    import { page } from '$app/stores';
 </script>
 
-<head>
-    <style>
-        .body {
-			margin: auto;
-			min-height: 50vh;
-			text-align: left;
-			justify-content: left;
-			width: 50vw;
-		}
-
-        .layout {
-			display: grid;
-		    gap: 2em;
-		    grid-template-columns: 1fr 16em;
-		}
-
-        aside {
-            position: sticky;
-            top: 0;
-            padding: 5px;
-            height: 100px;
-        }
-
-        img {
-			width: 50vw;
-            height: auto;
-		}
-    </style>
-</head>
-
-<div class= "layout">
-    <main>
+<div class= "grid gap-[14em] grid-cols-2 m-auto text-left justify-content-left">
+    <div>
         <slot></slot>
-    </main>
+    </div>
 
-    <aside>
-        <h3>{$page.data.post.title}</h3>
+    <div class= "sticky top-0 p-[5px] h-[100px] w-[25vw]">
+        <h2>{$page.data.post.title}</h2>
         <p>{$page.data.post.date}</p>
         <p>{@html $page.data.post.description}</p>
-    </aside>
+    </div>
 </div>
