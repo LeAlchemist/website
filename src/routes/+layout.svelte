@@ -43,14 +43,14 @@
 
 <footer class="m-auto text-center justify-left w-50vw">
 	<!--social media links here-->
-	<a href="https://www.linkedin.com/in/nicholas-ross-a17023b0/" class="fa-brands p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:opacity-[50%] fa-linkedin" target="_blank">
+	<a href="https://www.linkedin.com/in/nicholas-ross-a17023b0/" class="fa-brands fa-linkedin p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:z-10 hover:opacity-[50%]" target="_blank">
 	</a>
-	<a href="https://www.github.com/lealchemist" class="fa-brands p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:opacity-[50%] fa-github" target="_blank">
+	<a href="https://www.github.com/lealchemist" class="fa-brands fa-github p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:z-10 hover:opacity-[50%]" target="_blank">
 	</a>
-	<a href="https://twitter.com/le_alchemist" class="fa-brands p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:opacity-[50%] fa-twitter" target="_blank">
+	<a href="https://twitter.com/le_alchemist" class="fa-brands fa-twitter p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:z-10 hover:opacity-[50%]" target="_blank">
 	</a>
-	<a href="https://www.youtube.com/@le_alchemist" class="fa-brands p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:opacity-[50%] fa-youtube" target="_blank">
+	<a href="https://www.youtube.com/@le_alchemist" class="fa-brands fa-youtube p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:z-10 hover:opacity-[50%]" target="_blank">
 	</a>
-	<a href="https://patreon.com" class="fa-brands p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:opacity-[50%] fa-patreon" target="_blank">
+	<a href="https://patreon.com/NicholasRoss" class="fa-brands fa-patreon p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-[50%] text-white bg-black spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:z-10 hover:opacity-[50%]" target="_blank">
 	</a>
 </footer>
