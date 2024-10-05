@@ -29,9 +29,9 @@
 			<a class="block text-white text-center px-[16px] py-[14px] hover:bg-[#111]" href="/portfolio" aria-current={$page.url.pathname === "/portfolio"}>Portfolio</a>
 		</li>
 
-		<li class= "float-left">
+		<!--<li class= "float-left">
 			<a class="block text-white text-center px-[16px] py-[14px] hover:bg-[#111]" href="/blog" aria-current={$page.url.pathname === "/blog"}>Blog</a>
-		</li>
+		</li>-->
 
 		<li class= "float-left">
 			<a class="block text-white text-center px-[16px] py-[14px] hover:bg-[#111]" href="/about" aria-current={$page.url.pathname === "/about"}>About</a>
