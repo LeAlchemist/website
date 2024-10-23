@@ -2,7 +2,7 @@
   	import "../app.css";
 </script>
 
-<head>
+<svelte:head>
 	<title>Nicholas Ross</title>
 
 	<style lang="postcss">
@@ -12,7 +12,7 @@
 		rel="stylesheet"
 		href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
 	/>
-</head>
+</svelte:head>
 
 <div class="flex flex-col space-y-4">
 	<div class="p-4 h-[20vh] flex place-content-center">
