@@ -14,11 +14,10 @@
 	/>
 </svelte:head>
 
-<div class="flex flex-col space-y-4">
+<div class="flex flex-col">
 	<!--header-->
-	<div class="p-4 h-[20vh] flex place-content-center">
-		<h1>Nicholas Ross</h1>
-	</div>
+	<img src="https://cdnb.artstation.com/p/users/covers/000/270/761/default/881a3eb81d6f71dbf63a203d241b6de3.jpg?1571870876" alt="banner" class="h-[30vh] flex place-content-center object-cover">
+	
 	<!--nav-->
   	<div class="p-4 min-h-[5vh] flex sticky top-0 bg-[#333] place-content-center">
 		<a class="text-white text-center px-[16px] py-[14px] spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:bg-[#111]" 
@@ -60,7 +59,7 @@
 				<div class="hidden">patreon</div>
 			</a>
 		</div>
-		<div class="p-4 flex place-content-center">
+		<div class="flex place-content-center">
 			Copyright © 2024
 		</div>
 	</div>
