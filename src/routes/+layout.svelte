@@ -29,9 +29,9 @@
 	</div>
 
 	<!--body-->
-  	<div class="min-h-[60vh] flex flex-row space-x-4">
+  	<div class="min-h-[60vh] flex flex-row">
 		<div class="hidden lg:flex p-4 w-[20vw]"></div>
-		<div class="p-4 w-[60vw]">
+		<div class="w-[100vw] lg:w-[60vw]">
 			<slot></slot>
 		</div>
 		<div class="hidden lg:flex p-4 w-[20vw]"></div>
