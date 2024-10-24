@@ -15,7 +15,7 @@
 </script>
 
 <!--#region filter bar-->
-<nav class= "w-[100vw] m-auto bg-[#333]">
+<div class= "flex flex-wrap place-content-center bg-[#333]">
 	<div class= "text-white text-[20px] text-center list-none m-auto p-0 overflow-hidden w-[50vw]">
 		<ul class = "list-none m-0 p-0 overflow-hidden w-[50vw]">
 			<li class= "float-left">Filters: </li>
@@ -30,7 +30,7 @@
 			</li>
 		</ul>
 	</div>
-</nav>
+</div>
 <!--#endregion-->
 
 <!--#region Images-->
