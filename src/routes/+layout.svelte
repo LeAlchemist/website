@@ -15,10 +15,11 @@
 </svelte:head>
 
 <div class="flex flex-col">
-	<!--header-->
+	<!--#region header-->
 	<img src="https://cdnb.artstation.com/p/users/covers/000/270/761/default/881a3eb81d6f71dbf63a203d241b6de3.jpg?1571870876" alt="banner" class="h-[30vh] flex place-content-center object-cover">
-	
-	<!--nav-->
+	<!--#endregion-->
+
+	<!--#region nav-->
   	<div class="p-4 min-h-[5vh] flex sticky top-0 bg-[#333] place-content-center">
 		<a class="text-white text-center px-[16px] py-[14px] spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:bg-[#111]" 
 		href="/">Home</a>
@@ -27,8 +28,9 @@
 		<a class="text-white text-center px-[16px] py-[14px] spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:bg-[#111]" 
 		href="/about">About</a>
 	</div>
+	<!--#endregion-->
 
-	<!--body-->
+	<!--#region body-->
   	<div class="min-h-[60vh] flex flex-row">
 		<div class="hidden lg:flex p-4 w-[20vw]"></div>
 		<div class="w-[100vw] lg:w-[60vw]">
@@ -36,8 +38,9 @@
 		</div>
 		<div class="hidden lg:flex p-4 w-[20vw]"></div>
 	</div>
+	<!--#endregion-->
 
-	<!--footer-->
+	<!--#region footer-->
   	<div class="flex flex-col">
 		<div class="p-4 h-[10vh] flex place-content-center">
 			<a href="https://www.linkedin.com/in/nicholas-ross-a17023b0/" class="fa-brands fa-linkedin p-[16px] text-[16px] w-[48px] h-[48px] text-center rounded-full text-white bg-[#0077B5] spring-bounce-60 spring-duration-300 transition-transform hover:scale-150 hover:z-10 hover:opacity-[50%]" target="_blank">
@@ -63,4 +66,5 @@
 			Copyright © 2024
 		</div>
 	</div>
+	<!--#endregion-->
 </div>
