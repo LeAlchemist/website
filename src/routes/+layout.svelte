@@ -1,6 +1,13 @@
 <script>
   	import "../app.css";
+	import { setContext } from 'svelte';
+	const { children } = $props();
+
+	const slots = {};
+  	setContext('layout-slots', slots);
 </script>
+
+{@render children()}
 
 <svelte:head>
 	<title>Nicholas Ross</title>
@@ -13,6 +20,7 @@
 		href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
 	/>
 </svelte:head>
+
 
 <div class="flex flex-col">
 	<!--#region header-->
@@ -32,11 +40,15 @@
 
 	<!--#region body-->
   	<div class="min-h-[60vh] flex flex-row">
-		<div class="hidden lg:flex p-4 w-[20vw]"></div>
-		<div class="w-[100vw] lg:w-[60vw]">
-			<slot></slot>
+		<div class="hidden lg:flex p-4 w-[20vw]">
+			{@render slots.sidebarleft()}
 		</div>
-		<div class="hidden lg:flex p-4 w-[20vw]"></div>
+		<div class="w-[100vw] lg:w-[60vw]">
+			{@render slots.bodytext()}
+		</div>
+		<div class="hidden lg:flex p-4 w-[20vw]">
+			{@render slots.sidebarright()}
+		</div>
 	</div>
 	<!--#endregion-->
 

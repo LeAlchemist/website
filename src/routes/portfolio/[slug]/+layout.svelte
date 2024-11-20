@@ -7,9 +7,9 @@
         <slot></slot>
     </div>
 
-    <div class= "sticky top-0 p-[5px] h-[100px] w-[25vw]">
+    <!--<div class= "sticky top-0 p-[5px]">
         <h2>{$page.data.post.title}</h2>
         <p>{$page.data.post.date}</p>
         <p>{@html $page.data.post.description}</p>
-    </div>
+    </div>-->
 </div>
