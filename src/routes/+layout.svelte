@@ -7,7 +7,7 @@
   	setContext('layout-slots', slots);
 </script>
 
-{@render children()}
+
 
 <svelte:head>
 	<title>Nicholas Ross</title>
@@ -37,7 +37,7 @@
 		href="/about">About</a>
 	</div>
 	<!--#endregion-->
-
+{@render children()}
 	<!--#region body-->
   	<div class="min-h-[60vh] flex flex-row">
 		<div class="hidden lg:flex p-4 w-[20vw]">
