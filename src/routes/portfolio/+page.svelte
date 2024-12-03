@@ -12,15 +12,8 @@
 	}
 
 	export let data;
-
-    import { getContext } from 'svelte';
-    const slots = getContext('layout-slots');
-    slots.bodytext = bodytext;
-    slots.sidebarleft = sidebarleft;
-    slots.sidebarright = sidebarright;
 </script>
 
-{#snippet bodytext()}
 <!--#region filter bar-->
 <div class= "flex flex-wrap place-content-center bg-[#333]">
 	<div class= "text-white text-[20px] text-center list-none m-auto p-0 overflow-hidden w-[50vw]">
@@ -51,10 +44,3 @@
 	{/each}
 </div>
 <!--#endregion-->
-{/snippet}
-
-{#snippet sidebarleft()}
-{/snippet}
-
-{#snippet sidebarright()}
-{/snippet}

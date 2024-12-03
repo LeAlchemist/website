@@ -1,10 +1,6 @@
-<script>
+<script lang="ts">
   	import "../app.css";
-	import { setContext } from 'svelte';
-	const { children } = $props();
-
-	const slots = {};
-  	setContext('layout-slots', slots);
+	let {children} = $props();
 </script>
 
 
@@ -37,17 +33,17 @@
 		href="/about">About</a>
 	</div>
 	<!--#endregion-->
-{@render children()}
+
 	<!--#region body-->
   	<div class="min-h-[60vh] flex flex-row">
-		<div class="hidden lg:flex p-4 w-[20vw]">
-			{@render slots.sidebarleft()}
+		<div class="sidebarleft hidden lg:flex p-4 w-[20vw]">
+			<!--{@render children()}-->
 		</div>
-		<div class="w-[100vw] lg:w-[60vw]">
-			{@render slots.bodytext()}
+		<div class="bodytext w-[100vw] lg:w-[60vw]">
+			{@render children()}
 		</div>
 		<div class="hidden lg:flex p-4 w-[20vw]">
-			{@render slots.sidebarright()}
+			<!--{@render children()}-->
 		</div>
 	</div>
 	<!--#endregion-->
