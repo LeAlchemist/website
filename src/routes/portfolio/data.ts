@@ -1,6 +1,14 @@
 export const posts = [
     {
         tag: "3D",
+        slug: "streetsigns",
+        image: ['/street_signs/street_sign_banner.png'],
+        title: "Blender Street Signs",
+        date: "12/5/2024",
+        description: "This has been a project that I started almost 4 years ago as part of an asset set created for a freelance project that slowly evolved into a personal collection of street signs that I could use for future projects or release as assets to the public."
+    },
+    {
+        tag: "3D",
         slug:"blendertriplanarmapping",
         image: ['https://cdna.artstation.com/p/assets/images/images/041/680/208/large/nicholas-ross-screenshot-2021-09-21-193647.jpg?1632381853',  
                 'https://cdnb.artstation.com/p/assets/images/images/041/680/205/large/nicholas-ross-screenshot-2021-09-21-193435.jpg?1632381845',
