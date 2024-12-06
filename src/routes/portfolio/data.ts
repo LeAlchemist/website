@@ -5,7 +5,7 @@ export const posts = [
         image: ['../street_signs/street_sign_banner.png'],
         title: "Blender Street Signs",
         date: "12/5/2024",
-        description: "This has been a project that I started almost 4 years ago as part of an asset set created for a freelance project that slowly evolved into a personal collection of street signs that I could use for future projects or release as assets to the public."
+        description: "This has been a project that I started almost 4 years ago as part of an asset set created for a freelance project that slowly evolved into a personal collection of street signs that I could use for future projects or release as assets to the public. The files can be found here: https://lealchemist.gumroad.com/l/BlenderStreetSignAssets"
     },
     {
         tag: "3D",
