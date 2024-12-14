@@ -88,11 +88,35 @@ export const posts = [
     },
     {
         tag: "2D",
+        slug: "potionbottle",
+        image: ['../potion_bottle/Sketch_Potions.png'],
+        title: "Potions",
+        date: "9/4/2019",
+        description: "These are two new sketches that are being worked on for a set of icons that I plan to use for banners, thumbnails, and possibly more. The first is just a generic potion, like a heath potion. The other is more of a poison bottle, used to intimidate your foes."
+    },
+    {
+        tag: "2D",
+        slug: "itemdoodle1",
+        image: ['../item_doodle_1/Item_Doodle_1.jpg'],
+        title: "Item Doodle 1 (2019)",
+        date: "2/3/2019",
+        description: "A selection of 5 simple weapon doodles that i did recently using basic blocked out shapes. I tried to keep the weapons to a basic theme of \"what I'd find in a dungeon crawl\".  This set of doodles includes a cursed looking sword, a wrapped hilt cleaver, a second cleaver fit for a bandit, a hooked blade, and a battle axe with a gem on top."
+    },
+    {
+        tag: "2D",
+        slug: "characterdoodle1",
+        image: ['https://cdna.artstation.com/p/assets/images/images/015/218/378/large/nicholas-ross-character-doodle-1.jpg?1547534073'],
+        title: "Character Doodle 1 (2019)",
+        date: "1/15/2019",
+        description: "Five basic characters I drew from basic blocked out forms, and decide to have them follow a theme, and what better theme to start with than with \"Fantasy\", such as what can be seen in Dungeon and Dragons. From left to right, a basic elf, dressed as if he was a ranger or something, an armoured fello holding a spear, a second person holding a spear, but this one is dressed as if he is a roman fighter, a magic man with a tall hat, staff and large bag, and finally a large orc wearing half a skull on one of his shoulders and carrying a large club. Drawing these were fun and I plan to draw more, following different themes."
+    },
+    {
+        tag: "2D",
         slug: "arcanereliccubicroot",
         image: ['https://cdnb.artstation.com/p/assets/images/images/020/466/137/large/nicholas-ross-sidebyside-cubic-root.jpg?1567876379',
             'https://cdnb.artstation.com/p/assets/images/images/020/466/135/large/nicholas-ross-cubic-root-a.jpg?1567876375',
             'https://cdna.artstation.com/p/assets/images/images/020/466/136/large/nicholas-ross-cubic-root-b.jpg?1567876377',
-            'https://cdnb.artstation.com/p/assets/images/images/020/466/139/large/nicholas-ross-sketch-cubic-root.jpg?1567876381'],
+            '../cubic_root/Annotation 2019-08-25 054552.png'],
         title: "Arcane Relic: Cubic Root",
         date: "9/8/2019",
         description: "The Cubic Root, the first in a series of Arcane Relic images I worked on."
