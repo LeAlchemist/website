@@ -89,9 +89,9 @@ export const posts = [
     {
         tag: "2D",
         slug: "vendingmachinesketches",
-        image: ['../vendingmachines/vendingmachines1.png',
-                '../vendingmachines/vendingmachines2.png',
-                '../vendingmachines/vendingmachines3.png'],
+        image: ['../vendingmachines/VendingMachines1.png',
+                '../vendingmachines/VendingMachines2.png',
+                '../vendingmachines/VendingMachines3.png'],
         title: "Vending Machine Sketches",
         date: "12/27/2019",
         description: "This set features a collection of vending machines. Vending machines play a big part of a world scene, and can be used as a way to vend items in almost any game setting. "
