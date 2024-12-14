@@ -88,6 +88,17 @@ export const posts = [
     },
     {
         tag: "2D",
+        slug: "buildingsketches1",
+        image: ['../buildings1/AlleyShop1_3.png',
+                '../buildings1/AlleyShop1.png',
+                '../buildings1/AlleyShop2.png',
+                '../buildings1/AlleyShop3.png'],
+        title: "Building Sketches 1",
+        date: "12/15/2019",
+        description: "I have decided to start sketching some building and thinking about building a small town scene, something with a few buildings. This will give me a chance to practice some larger object modeling, multi sub object material baking, and texture creation due to wanting to make it look stylized. As I sketch more buildings or actually start to model and create the textures for this project"
+    },
+    {
+        tag: "2D",
         slug: "potionbottle",
         image: ['../potion_bottle/Sketch_Potions.png',
                 '../potion_bottle/Potion.png',
