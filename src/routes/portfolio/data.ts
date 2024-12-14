@@ -90,11 +90,12 @@ export const posts = [
         tag: "2D",
         slug: "potionbottle",
         image: ['../potion_bottle/Sketch_Potions.png',
+                '../potion_bottle/Potion.png',
                 '../potion_bottle/Sketch_Potion.png',
                 '../potion_bottle/Sketch_Poison.png'],
         title: "Potions",
         date: "9/4/2019",
-        description: "These are two new sketches that are being worked on for a set of icons that I plan to use for banners, thumbnails, and possibly more. The first is just a generic potion, like a heath potion. The other is more of a poison bottle, used to intimidate your foes."
+        description: "These are two new sketches and icons that are being worked on for a set of icons that I plan to use for banners, thumbnails, and possibly more. The first is just a generic potion, like a heath potion. The other is more of a poison bottle, used to intimidate your foes."
     },
     {
         tag: "2D",
