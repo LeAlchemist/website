@@ -88,6 +88,16 @@ export const posts = [
     },
     {
         tag: "2D",
+        slug: "buildingsketches2",
+        image: ['../buildings2/Residential4.png',
+                '../buildings2/Residential5.png',
+                '../buildings2/Residential6.png'],
+        title: "Building Sketches 2",
+        date: "12/27/2019",
+        description: "A few more sketches of buildings to go along with what I hope to be an amazing project. Two of the sketches show businesses with upper floor apartments, optional water tower and sign. Along with what I was trying to design as a movie theater."
+    },
+    {
+        tag: "2D",
         slug: "buildingsketches1",
         image: ['../buildings1/AlleyShop1_3.png',
                 '../buildings1/AlleyShop1.png',
