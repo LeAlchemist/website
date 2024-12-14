@@ -88,6 +88,16 @@ export const posts = [
     },
     {
         tag: "2D",
+        slug: "vendingmachinesketches",
+        image: ['../vendingmachines/vendingmachines1.png',
+                '../vendingmachines/vendingmachines2.png',
+                '../vendingmachines/vendingmachines3.png'],
+        title: "Vending Machine Sketches",
+        date: "12/27/2019",
+        description: "This set features a collection of vending machines. Vending machines play a big part of a world scene, and can be used as a way to vend items in almost any game setting. "
+    },
+    {
+        tag: "2D",
         slug: "buildingsketches2",
         image: ['../buildings2/Residential4.png',
                 '../buildings2/Residential5.png',
