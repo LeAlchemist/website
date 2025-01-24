@@ -71,7 +71,8 @@
 			</a>
 		</div>
 		<div class="flex place-content-center">
-			Copyright © 2024
+			<div>This site is pushed to <a href="https://github.com/LeAlchemist/website">Github</a> and published though Cloudflare
+			<div>Copyright © 2024</div>
 		</div>
 	</div>
 	<!--#endregion-->
