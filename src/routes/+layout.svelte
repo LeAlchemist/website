@@ -71,8 +71,8 @@
 			</a>
 		</div>
 		<div class="flex place-content-center">
-			<div>This site is pushed to <a href="https://github.com/LeAlchemist/website">Github</a> and published though Cloudflare</div>
-			<div>Copyright © 2024</div>
+			<p>This site is pushed to <a href="https://github.com/LeAlchemist/website">Github</a> and published though Cloudflare</p>
+			<p>Copyright © 2024</p>
 		</div>
 	</div>
 	<!--#endregion-->
