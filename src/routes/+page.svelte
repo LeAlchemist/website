@@ -1,3 +1,4 @@
-    <h1>Welcome to my site</h1>
-    <h3>Hey look a new website</h3>
-    <p>This is going to be a new exciting adventure</p>
+<div class="flex flex-col">
+	<div>Welcome to a Whole New Page</div>
+	<div>This is a whole new page, lets have fun!</div>
+</div>
