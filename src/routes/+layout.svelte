@@ -8,6 +8,11 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<title>Nicholas Ross</title>
+
+	<style lang="postcss">
+	</style>
+
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css" />
 </svelte:head>
 
 <div class="flex flex-col">
@@ -20,8 +25,8 @@
 	<!-- #region Navigation -->
 	<div class="sticky top-0 flex place-content-center p-4">
 		<a class="px-[16px] py-[14px]" href="/">Home</a>
-		<a class="px-[16px] py-[14px]" href="/about">About</a>
 		<a class="px-[16px] py-[14px]" href="/portfolio">Portfolio</a>
+		<a class="px-[16px] py-[14px]" href="/about">About</a>
 	</div>
 	<!--#endregion -->
 
@@ -34,7 +39,50 @@
 	<!--#region Footer -->
 	<div class="absolute inset-x-0 bottom-0 flex flex-col place-content-center p-4">
 		<!-- social media links -->
-		<div class="flex place-content-center">Test</div>
+		<div class="flex place-content-center">
+			<a
+				href="https://www.linkedin.com/in/nicholas-ross-a17023b0/"
+				class="fa-brands fa-linkedin spring-bounce-60 spring-duration-300 h-[48px] w-[48px] rounded-full bg-[#0077B5] p-[16px] text-center text-[16px] text-white transition-transform hover:z-10 hover:scale-150 hover:opacity-[50%]"
+				target="_blank"
+			>
+				<div class="hidden">linkedin</div>
+			</a>
+			<a
+				href="https://www.github.com/lealchemist"
+				class="fa-brands fa-github spring-bounce-60 spring-duration-300 h-[48px] w-[48px] rounded-[50%] bg-black p-[16px] text-center text-[16px] text-white transition-transform hover:z-10 hover:scale-150 hover:opacity-[50%]"
+				target="_blank"
+			>
+				<div class="hidden">github</div>
+			</a>
+			<a
+				href="https://twitter.com/le_alchemist"
+				class="fa-brands fa-twitter spring-bounce-60 spring-duration-300 h-[48px] w-[48px] rounded-[50%] bg-[#1DA1F2] p-[16px] text-center text-[16px] text-white transition-transform hover:z-10 hover:scale-150 hover:opacity-[50%]"
+				target="_blank"
+			>
+				<div class="hidden">twitter</div>
+			</a>
+			<a
+				href="https://lealchemist.bsky.social"
+				class="fa-brands fa-bluesky spring-bounce-60 spring-duration-300 h-[48px] w-[48px] rounded-[50%] bg-[#0085ff] p-[16px] text-center text-[16px] text-white transition-transform hover:z-10 hover:scale-150 hover:opacity-[50%]"
+				target="_blank"
+			>
+				<div class="hidden">bluesky</div>
+			</a>
+			<a
+				href="https://www.youtube.com/@le_alchemist"
+				class="fa-brands fa-youtube spring-bounce-60 spring-duration-300 h-[48px] w-[48px] rounded-[50%] bg-[#FF0000] p-[16px] text-center text-[16px] text-white transition-transform hover:z-10 hover:scale-150 hover:opacity-[50%]"
+				target="_blank"
+			>
+				<div class="hidden">youtube</div>
+			</a>
+			<a
+				href="https://patreon.com/NicholasRoss"
+				class="fa-brands fa-patreon spring-bounce-60 spring-duration-300 h-[48px] w-[48px] rounded-[50%] bg-[#f96854] p-[16px] text-center text-[16px] text-white transition-transform hover:z-10 hover:scale-150 hover:opacity-[50%]"
+				target="_blank"
+			>
+				<div class="hidden">patreon</div>
+			</a>
+		</div>
 		<!-- copyright -->
 		<div class="flex place-content-center">&copy; 2024 Nicholas Ross</div>
 	</div>
