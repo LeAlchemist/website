@@ -3,6 +3,7 @@ export type Categories = '2D Art' | '3D Art' | 'Other'
 export type Post = {
     title: string
     slug: string
+    preview: string
     description: string
     date: string
     categories: Categories[]

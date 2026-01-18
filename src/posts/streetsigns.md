@@ -1,6 +1,7 @@
 ---
 title: Blender Street Signs
 description: A collection of Street signs design in Substance Designer and Rendered in Blender 3D
+preview: 'street_signs/street_sign_banner.png'
 date: '2024-12-5'
 categories:
   - 3D Art

@@ -14,6 +14,7 @@
 		{#each data.posts as post}
 			<li class="post">
 				<a href={post.slug} class="title">{post.title}</a>
+				<img src={post.preview} alt={'Preview image for ' + post.title} />
 				<p class="date">{formatDate(post.date)}</p>
 				<p class="description">{post.description}</p>
 			</li>
