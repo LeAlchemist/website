@@ -10,7 +10,7 @@
 
 	<ul class="links">
 		<li>
-			<a href="/">Home</a>
+			<a href="/">Portfolio</a>
 		</li>
 		<li>
 			<a href="/about">About</a>
