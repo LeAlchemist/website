@@ -3,29 +3,38 @@
 </script>
 
 <footer>
-	<p>{config.title} &copy {new Date().getFullYear()}</p>
+	<div class="copyright">
+		{config.title} &copy {new Date().getFullYear()}
+	</div>
 
-	<a href={config.linkedIn} target="_blank" class="fa-brands fa-linkedin">
-		<div class="social">linkedIn</div>
-	</a>
-	<a href={config.github} target="_blank" class="fa-brands fa-github">
-		<div class="social">github</div>
-	</a>
-	<a href={config.twitter} target="_blank" class="fa-brands fa-twitter">
-		<div class="social">twitter</div>
-	</a>
-	<a href={config.bsky} target="_blank" class="fa-brands fa-bluesky">
-		<div class="social">bluesky</div>
-	</a>
-	<a href={config.youtube} target="_blank" class="fa-brands fa-youtube">
-		<div class="social">youtube</div>
-	</a>
-	<a href={config.twitch} target="_blank" class="fa-brands fa-twitch">
-		<div class="social">twitch</div>
-	</a>
-	<a href={config.patreon} target="_blank" class="fa-brands fa-patreon">
-		<div class="social">patreon</div>
-	</a>
+	<div class="disclaimer">
+		All content on this site is my own. This site is built with SvelteKit, published on Github, and
+		hosted on Cloudflare Pages.
+	</div>
+
+	<div class="socials">
+		<a href={config.linkedIn} target="_blank" class="fa-brands fa-linkedin">
+			<div class="social">linkedIn</div>
+		</a>
+		<a href={config.github} target="_blank" class="fa-brands fa-github">
+			<div class="social">github</div>
+		</a>
+		<a href={config.twitter} target="_blank" class="fa-brands fa-twitter">
+			<div class="social">twitter</div>
+		</a>
+		<a href={config.bsky} target="_blank" class="fa-brands fa-bluesky">
+			<div class="social">bluesky</div>
+		</a>
+		<a href={config.youtube} target="_blank" class="fa-brands fa-youtube">
+			<div class="social">youtube</div>
+		</a>
+		<a href={config.twitch} target="_blank" class="fa-brands fa-twitch">
+			<div class="social">twitch</div>
+		</a>
+		<a href={config.patreon} target="_blank" class="fa-brands fa-patreon">
+			<div class="social">patreon</div>
+		</a>
+	</div>
 </footer>
 
 <style>
@@ -33,8 +42,9 @@
 		padding-block: var(--size-7);
 		border-top: 1px solid var(--border);
 
-		p {
-			color: var(--text-2);
+		@media (min-width: 768px) {
+			display: flex;
+			justify-content: space-between;
 		}
 
 		.fa-brands {
