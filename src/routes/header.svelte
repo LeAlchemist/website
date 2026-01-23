@@ -22,11 +22,21 @@
 
 <style>
 	nav {
-		padding-block: var(--size-7);
+		background-color: light-dark(#ffffff83, #00000083); /* Black w/opacity/see-through */
+
+		/* Apply the blur effect to the background area */
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px); /* For Safari support */
+
+		padding-block: var(--size-5);
 
 		@media (min-width: 768px) {
 			display: flex;
 			justify-content: space-between;
+		}
+
+		.title {
+			padding-left: 50px;
 		}
 
 		.links {

@@ -11,20 +11,29 @@
 	let { children, data } = $props();
 </script>
 
-<div class="layout">
-	<Header />
+<div class="background">
+	<div class="layout">
+		<Header />
 
-	<main>
-		<PageTransition url={data.url}>
-			{@render children?.()}
-		</PageTransition>
-	</main>
+		<main>
+			<PageTransition url={data.url}>
+				{@render children?.()}
+			</PageTransition>
+		</main>
 
-	<Footer />
+		<Footer />
+	</div>
 </div>
 
 <style>
+	.background {
+		background-image: url('./Background/Sticker_Bomb_Oddities_basecolor.png');
+		background-size: 1024px;
+		background-repeat: repeat;
+	}
+
 	.layout {
+		min-height: 100vh;
 		height: 100%;
 		max-inline-size: 1440px;
 		display: grid;
@@ -37,6 +46,12 @@
 		}
 
 		main {
+			background-color: light-dark(#ffffff83, #00000083); /* Black w/opacity/see-through */
+
+			/* Apply the blur effect to the background area */
+			backdrop-filter: blur(20px);
+			-webkit-backdrop-filter: blur(20px); /* For Safari support */
+
 			padding-block: var(--size-9);
 		}
 	}

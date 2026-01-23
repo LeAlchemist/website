@@ -39,12 +39,28 @@
 
 <style>
 	footer {
+		background-color: light-dark(#ffffff83, #00000083); /* Black w/opacity/see-through */
+
+		bottom: 0;
+
+		/* Apply the blur effect to the background area */
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px); /* For Safari support */
+
 		padding-block: var(--size-7);
 		border-top: 1px solid var(--border);
 
 		@media (min-width: 768px) {
 			display: flex;
 			justify-content: space-between;
+		}
+
+		.copyright {
+			padding-left: 50px;
+		}
+
+		.socials {
+			padding-right: 50px;
 		}
 
 		.fa-brands {
