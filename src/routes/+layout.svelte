@@ -11,7 +11,10 @@
 	let { children, data } = $props();
 </script>
 
-<div class="background">
+<div
+	class="background"
+	style="background-image: url(./Background/Sticker_Bomb_Oddities_basecolor.png);"
+>
 	<div class="layout">
 		<Header />
 
@@ -27,7 +30,6 @@
 
 <style>
 	.background {
-		background-image: url('./Background/Sticker_Bomb_Oddities_basecolor.png');
 		background-size: 1024px;
 		background-repeat: repeat;
 	}
