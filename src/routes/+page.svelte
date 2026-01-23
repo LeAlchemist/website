@@ -54,8 +54,12 @@
 
 			.img {
 				width: 100%;
-				height: 228px;
+				height: 114px;
 				object-fit: cover;
+
+				@media (min-width: 48rem) {
+					height: 228px;
+				}
 			}
 
 			.title {
