@@ -37,11 +37,14 @@
 	.layout {
 		min-height: 100vh;
 		height: 100%;
-		max-inline-size: 1440px;
 		display: grid;
 		grid-template-rows: auto 1fr auto;
 		margin-inline: auto;
-		padding-inline: var(--size-7);
+
+		@media (min-width: 48rem) {
+			max-inline-size: 1440px;
+			padding-inline: var(--size-7);
+		}
 
 		@media (min-width: 1440px) {
 			padding-inline: 0;
