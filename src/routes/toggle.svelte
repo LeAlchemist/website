@@ -19,6 +19,7 @@
 
 <style>
 	button {
+		font-size: var(--font-size-4);
 		padding-right: 50px;
 		font-weight: inherit;
 		background: none;

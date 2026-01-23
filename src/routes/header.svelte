@@ -36,10 +36,12 @@
 		}
 
 		.title {
+			font-size: var(--font-size-4);
 			padding-left: 50px;
 		}
 
 		.links {
+			font-size: var(--font-size-4);
 			margin-block: var(--size-7);
 
 			@media (min-width: 768px) {
