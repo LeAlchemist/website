@@ -29,8 +29,8 @@
 
 <style>
 	article {
-		max-inline-size: var(--size-content-3);
-		margin-inline: auto;
+		padding-left: 10px;
+		padding-right: 10px;
 
 		h1 {
 			text-transform: capitalize;
