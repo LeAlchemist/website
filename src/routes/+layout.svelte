@@ -46,7 +46,7 @@
 			padding-inline: var(--size-7);
 		}
 
-		@media (min-width: 1440px) {
+		@media (min-width: 80rem) {
 			padding-inline: 0;
 		}
 
@@ -56,8 +56,6 @@
 			/* Apply the blur effect to the background area */
 			backdrop-filter: blur(20px);
 			-webkit-backdrop-filter: blur(20px); /* For Safari support */
-
-			padding-block: var(--size-9);
 		}
 	}
 </style>
