@@ -13,6 +13,9 @@
 			<a href="/">Portfolio</a>
 		</li>
 		<li>
+			<a href="/blog">Blog</a>
+		</li>
+		<li>
 			<a href="/about">About</a>
 		</li>
 	</ul>
