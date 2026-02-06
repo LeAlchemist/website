@@ -29,7 +29,7 @@
 		{#each data.posts as post}
 			{#if post.categories.includes(imgTag)}
 				<li class="post">
-					<a href={post.slug}
+					<a href="portfolio/{post.slug}"
 						><img
 							src={post.preview}
 							class="img"
@@ -38,13 +38,13 @@
 							height="100%"
 						/></a
 					>
-					<a href={post.slug} class="title">{post.title}</a>
+					<a href="portfolio/{post.slug}" class="title">{post.title}</a>
 					<p class="date">{formatDate(post.date)}</p>
 					<p class="description">{post.description}</p>
 				</li>
 			{:else if imgTag === ''}
 				<li class="post">
-					<a href={post.slug}
+					<a href="portfolio/{post.slug}"
 						><img
 							src={post.preview}
 							class="img"
@@ -53,7 +53,7 @@
 							height="100%"
 						/></a
 					>
-					<a href={post.slug} class="title">{post.title}</a>
+					<a href="portfolio/{post.slug}" class="title">{post.title}</a>
 					<p class="date">{formatDate(post.date)}</p>
 					<p class="description">{post.description}</p>
 				</li>
