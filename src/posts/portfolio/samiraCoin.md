@@ -10,4 +10,4 @@ published: True
 
 A small fan art commission that I had done for a friend.
 
-![Samira Coin](samirasCoin/nicholas-ross-coin.jpg)
+![Samira Coin](../samirasCoin/nicholas-ross-coin.jpg)

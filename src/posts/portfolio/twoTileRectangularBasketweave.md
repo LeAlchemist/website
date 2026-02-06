@@ -11,6 +11,6 @@ published: True
 I worked on some tile materials on stream. This was a really fun practice of creating repeating designs in Substance Designer. 
 I used dimensions.com for the references to this project.
 
-![Two Tile Rectangular Basketweave](Basic_Tiles_Rectangular_Basketweave/Basic_Tiles_Rectangular_Basketweave_Cube.png)
-![Two Tile Rectangular Basketweave](Basic_Tiles_Rectangular_Basketweave/Basic_Tiles_Rectangular_Basketweave_Plane.png)
-![Two Tile Rectangular Basketweave](Basic_Tiles_Rectangular_Basketweave/Basic_Tiles_Rectangular_Basketweave_Sphere.png)
+![Two Tile Rectangular Basketweave](../Basic_Tiles_Rectangular_Basketweave/Basic_Tiles_Rectangular_Basketweave_Cube.png)
+![Two Tile Rectangular Basketweave](../Basic_Tiles_Rectangular_Basketweave/Basic_Tiles_Rectangular_Basketweave_Plane.png)
+![Two Tile Rectangular Basketweave](../Basic_Tiles_Rectangular_Basketweave/Basic_Tiles_Rectangular_Basketweave_Sphere.png)

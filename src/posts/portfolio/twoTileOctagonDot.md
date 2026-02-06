@@ -11,6 +11,6 @@ published: True
 I worked on some tile materials on stream. This was a really fun practice of creating repeating designs in Substance Designer. 
 I used dimensions.com for the references to this project.
 
-![Two Tile Octagon Dot](Basic_Tiles_Octagon_Dot/Basic_Tiles_Octagon_Dot_Cube.png)
-![Two Tile Octagon Dot](Basic_Tiles_Octagon_Dot/Basic_Tiles_Octagon_Dot_Plane.png)
-![Two Tile Octagon Dot](Basic_Tiles_Octagon_Dot/Basic_Tiles_Octagon_Dot_Sphere.png)
+![Two Tile Octagon Dot](../Basic_Tiles_Octagon_Dot/Basic_Tiles_Octagon_Dot_Cube.png)
+![Two Tile Octagon Dot](../Basic_Tiles_Octagon_Dot/Basic_Tiles_Octagon_Dot_Plane.png)
+![Two Tile Octagon Dot](../Basic_Tiles_Octagon_Dot/Basic_Tiles_Octagon_Dot_Sphere.png)
