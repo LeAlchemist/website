@@ -12,9 +12,9 @@
 		<li>
 			<a href="/">Portfolio</a>
 		</li>
-		<li>
+		<!--<li>
 			<a href="/blog">Blog</a>
-		</li>
+		</li>-->
 		<li>
 			<a href="/about">About</a>
 		</li>
