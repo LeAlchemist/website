@@ -40,7 +40,7 @@
 						/></a
 					>
 					<a href="portfolio/{post.slug}" class="title">{post.title}</a>
-					<p class="date">{formatDate(post.date)}</p>
+					<!--<p class="date">{formatDate(post.date)}</p>-->
 					<p class="description">{post.description}</p>
 				</li>
 			{:else if imgTag === ''}
